@@ -1,0 +1,182 @@
+[
+  {
+    "caso": "01_quadrada_simples",
+    "descricao": "2x2 com caminho possivel",
+    "solucao": true,
+    "vida_final_maxima": 10
+  },
+  {
+    "caso": "02_exemplo_enunciado",
+    "descricao": "Exemplo oficial 4x5 do enunciado",
+    "solucao": true,
+    "vida_final_maxima": 50
+  },
+  {
+    "caso": "03_retangular_larga",
+    "descricao": "Caverna 2x6",
+    "solucao": true,
+    "vida_final_maxima": 19
+  },
+  {
+    "caso": "04_retangular_alta",
+    "descricao": "Caverna 6x2",
+    "solucao": true,
+    "vida_final_maxima": 20
+  },
+  {
+    "caso": "05_linha_unica",
+    "descricao": "Uma linha, deslocamento a esquerda",
+    "solucao": true,
+    "vida_final_maxima": 7
+  },
+  {
+    "caso": "06_coluna_unica",
+    "descricao": "Uma coluna, deslocamento para cima",
+    "solucao": true,
+    "vida_final_maxima": 7
+  },
+  {
+    "caso": "07_mesma_linha",
+    "descricao": "I e F na mesma linha interna",
+    "solucao": true,
+    "vida_final_maxima": 12
+  },
+  {
+    "caso": "08_mesma_coluna",
+    "descricao": "I e F na mesma coluna",
+    "solucao": true,
+    "vida_final_maxima": 2
+  },
+  {
+    "caso": "09_fora_de_direcao",
+    "descricao": "Fim abaixo ou a direita do inicio",
+    "solucao": false,
+    "vida_final_maxima": null
+  },
+  {
+    "caso": "10_dano_letal",
+    "descricao": "Todas as opcoes iniciais letais",
+    "solucao": false,
+    "vida_final_maxima": null
+  },
+  {
+    "caso": "11_zero_intermediario",
+    "descricao": "Vida fica exatamente zero durante o trajeto",
+    "solucao": false,
+    "vida_final_maxima": null
+  },
+  {
+    "caso": "12_zero_na_saida",
+    "descricao": "Vida fica exatamente zero em F após perda",
+    "solucao": false,
+    "vida_final_maxima": null
+  },
+  {
+    "caso": "13_vida_minima",
+    "descricao": "Vida inicial igual a um",
+    "solucao": true,
+    "vida_final_maxima": 1
+  },
+  {
+    "caso": "14_pocao_necessaria",
+    "descricao": "Recuperacao de vida em rota sobrevivente",
+    "solucao": true,
+    "vida_final_maxima": 6
+  },
+  {
+    "caso": "15_otimo_diferente",
+    "descricao": "Duas rotas viaveis com diferentes vidas finais",
+    "solucao": true,
+    "vida_final_maxima": 22
+  },
+  {
+    "caso": "16_empate",
+    "descricao": "Multiplas rotas otimas por empate",
+    "solucao": true,
+    "vida_final_maxima": 8
+  },
+  {
+    "caso": "17_rota_letal_vs_viavel",
+    "descricao": "Maior ganho final isolado nao salva caminho letal",
+    "solucao": true,
+    "vida_final_maxima": 7
+  },
+  {
+    "caso": "18_pocao_apos_inicio",
+    "descricao": "Pocao positiva adjacente ao inicio",
+    "solucao": true,
+    "vida_final_maxima": 13
+  },
+  {
+    "caso": "19_pocao_tardia",
+    "descricao": "Pocao depois de perdas toleraveis",
+    "solucao": true,
+    "vida_final_maxima": 11
+  },
+  {
+    "caso": "20_inicio_borda_superior",
+    "descricao": "Inicio na borda superior",
+    "solucao": true,
+    "vida_final_maxima": 13
+  },
+  {
+    "caso": "21_inicio_borda_esquerda",
+    "descricao": "Inicio na borda esquerda",
+    "solucao": true,
+    "vida_final_maxima": 13
+  },
+  {
+    "caso": "22_saida_canto",
+    "descricao": "Saida no canto superior esquerdo",
+    "solucao": true,
+    "vida_final_maxima": 19
+  },
+  {
+    "caso": "23_todas_zero",
+    "descricao": "Mapa inteiramente neutro",
+    "solucao": true,
+    "vida_final_maxima": 9
+  },
+  {
+    "caso": "24_negativos_vida_alta",
+    "descricao": "Danos em todas as celulas, vida suficiente",
+    "solucao": true,
+    "vida_final_maxima": 85
+  },
+  {
+    "caso": "25_negativos_vida_baixa",
+    "descricao": "Danos em todas as celulas, vida insuficiente",
+    "solucao": false,
+    "vida_final_maxima": null
+  },
+  {
+    "caso": "26_gargalo",
+    "descricao": "Passagem critica de vida baixa",
+    "solucao": true,
+    "vida_final_maxima": 11
+  },
+  {
+    "caso": "27_larga_7",
+    "descricao": "Retangulo 3x7",
+    "solucao": true,
+    "vida_final_maxima": 27
+  },
+  {
+    "caso": "28_alta_7",
+    "descricao": "Retangulo 7x3",
+    "solucao": true,
+    "vida_final_maxima": 27
+  },
+  {
+    "caso": "29_minimo_linha",
+    "descricao": "Entrada minima 1x2",
+    "solucao": true,
+    "vida_final_maxima": 1
+  },
+  {
+    "caso": "30_minimo_coluna",
+    "descricao": "Entrada minima 2x1",
+    "solucao": true,
+    "vida_final_maxima": 1
+  }
+]
