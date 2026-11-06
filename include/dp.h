@@ -28,4 +28,4 @@ enum {
 int resolver_dp(int linhas, int colunas, const int *valores, CoordenadaDP inicio, CoordenadaDP fim, int64_t vida_inicial, ResultadoDP *resultado);
 void liberar_resultado_dp(ResultadoDP *resultado);
 
-#endif;
+#endif
